@@ -1,0 +1,8 @@
+<div>
+    <div *ngIf="!countDown"> Registration closed! </div>
+    <nav *ngIf="countDown">
+      <a routerLink="/register">Register</a>
+    </nav>
+  <h1>Subscription count down:</h1>
+  <div class="count-down"> {{ countDown }} </div>
+</div>
